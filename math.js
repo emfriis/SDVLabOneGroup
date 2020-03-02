@@ -6,6 +6,13 @@ var nFour = 40; //creates a variable called "nFour" and sets it to the value of 
 var nCalc = nOne / nTwo + nThree / nOne - nFour % nFour; 
 // creates a variable of the equation we want to answer so that we dont have to keep writing it out
 
+var nCalcTwo = (nOne / nTwo) + (nThree / nOne) - (nFour % nFour);
+// creates a variable of the equation we want to answer with grouping operators
+
 console.log("Result of nOne / nTwo + nThree / nOne - nFour % nFour"); // prints to the console the equation we want to answer
 console.log(nCalc);//Prints to the console the numerical value of 'nCalc'
+
+console.log("Result of nOne / nTwo + nThree / nOne - nFour % nFour with grouping operators")
+console.log(nCalcTwo);//Prints to the console the numerical value of 'nCalcTwo'
+
 
