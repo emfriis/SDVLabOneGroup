@@ -3,7 +3,7 @@ var nTwo = 10;
 var sum = nOne + nTwo;
 var subtract = nOne - nTwo;
 var divide = nOne / nTwo;
-var percent = 50 % 10;
+var percent = nOne % nTwo;
 var multiply = nOne * nTwo;
 
 console.log("sum of nOne and nTwo");
@@ -20,4 +20,3 @@ console.log(percent);
 
 console.log("nOne multiplied by nTwo");
 console.log(multiply);
-
